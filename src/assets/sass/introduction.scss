@@ -1,0 +1,41 @@
+@import '_variables.scss';
+
+
+.introduction{    
+    .about{
+        display: flex;
+        flex-direction: row;
+
+        img{
+            align-self: baseline;
+            margin-right: 25px;
+        }
+    }
+    .technologies{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .tech-list {
+            ul{
+                display: inline-table;
+            }
+            
+            li{
+                font-weight: bold;
+                color: $gray;
+            }
+        }
+
+        .tech-list > *{
+            margin-right: 15px;
+        }
+
+        .tech-list:last-child{
+            margin-right: 0px;
+        }
+        
+    }
+}
