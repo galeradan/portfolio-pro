@@ -8,11 +8,13 @@ const IntroductionSection = () => {
         <div className="col-md-6 about">
           <img src={ProfileSVG} alt="dan-dp" />
           <div className="details">
-            <h3>Hi, I&apos;m Dan Galera</h3>
+            <h3 id="info" className="hash-link section-title">
+              Hi, I&apos;m Dan Galera
+            </h3>
             <h5>A Software Engineer</h5>
             <p className="text-muted">
-              I&apos;m a full-stack software engineer specialized in developing
-              web apps using MERN with TypeScript and GraphQL.{' '}
+              I&apos;m a software engineer specialized in developing web apps
+              using MERN with TypeScript and GraphQL.{' '}
             </p>
             <p className="text-muted">
               I also have a background as a Product Manager which helps me with

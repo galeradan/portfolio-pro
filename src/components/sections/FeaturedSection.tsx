@@ -32,12 +32,12 @@ const projects = [
 const FeaturedSection = () => {
   return (
     <>
-      <div className="featured">
+      <div id="works" className="hash-link featured">
         <h4 className="section-title">Featured Projects</h4>
-        <div className="row featured-list">
+        <div className="featured-list">
           {projects.map((project) => {
             return (
-              <div className="col-md-4">
+              <div className="featured-item">
                 <ProjectCard project={project} isFeatured />
               </div>
             );

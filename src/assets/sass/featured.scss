@@ -3,6 +3,19 @@
 
 .featured{
     .section-title{
-        margin-bottom: 25px;
+        margin-bottom: 50px;
+    }
+    .featured-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: $tablet) {
+    .featured{
+        .featured-list > *{
+            margin-bottom: 20px;
+        }
     }
 }

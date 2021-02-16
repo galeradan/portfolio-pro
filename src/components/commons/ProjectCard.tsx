@@ -22,7 +22,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, isFeatured }) => {
           <small>{project.type}</small>
         </div>
         {isFeatured ? (
-          <img className="project-img" src={project.image} alt="" />
+          <img className="card-img project-img" src={project.image} alt="" />
         ) : (
           ''
         )}

@@ -13,6 +13,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;   
+    scroll-behavior: smooth;
+
 }
 
 #root{
@@ -33,7 +35,7 @@
 }
 
 .main > * {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .custom-nav-style{
@@ -44,7 +46,24 @@
     max-width: 1267px;
 }
 
+.resume-btn{
+    border: none;
+    border-bottom: 2px solid $gray;
+    border-radius: 0;
+}
 
+.resume-btn:hover{
+    color: $primary !important;
+    border-color: $primary;
+}
+
+.nav-link{
+    color: $dark !important;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
 
 .footer{
     margin-top: auto;
@@ -70,4 +89,23 @@ p {
 
 .section-title{
     color: $primary;
+}
+
+.hash-link::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -135px; 
+    height: 135px; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+
+@media (max-width: $tablet){
+    .main{
+        margin-top: 50px;
+    }
+
+    .main > * {
+        margin-bottom: 50px;
+    }
 }

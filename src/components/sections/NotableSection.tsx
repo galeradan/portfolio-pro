@@ -44,7 +44,7 @@ const NotableSection = () => {
   return (
     <>
       <div className="notable">
-        <h4 className="section-title">Notable Projects</h4>
+        <h4 className="section-title">Other Noteworthy Projects</h4>
         <div className="row notable-list">
           {projects.map((project) => {
             return (

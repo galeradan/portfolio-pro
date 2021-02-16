@@ -39,3 +39,19 @@
         
     }
 }
+
+
+@media (max-width: $tablet){
+    .introduction{
+        .about{
+            flex-direction: column;
+
+            img{
+                align-self: center;
+                margin-right: 0;
+                margin-bottom: 25px;
+            }
+            
+        }
+    }
+}
