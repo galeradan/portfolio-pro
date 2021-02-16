@@ -36,9 +36,6 @@ const IntroductionSection = () => {
               <li>GraphQL</li>
               <li>Apollo Client</li>
               <li>NextJS</li>
-              <li>NestJS</li>
-              <li>VueJS</li>
-              <li>Laravel</li>
             </ul>
             <ul>
               <li>MongoDB</li>

@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 @import '_variables.scss';
 @import 'introduction.scss';
-@import 'projects.scss';
+@import 'featured.scss';
+@import 'notable.scss';
+@import 'project-card.scss';
 
 * {
     font-family: 'Noto Sans', sans-serif;
@@ -24,9 +26,25 @@
 }
 
 .main{
+    margin-top: 100px;
+    padding-top: 40px;
     width: 100%;
-    max-width: 1360px;
+    max-width: 1267px;
 }
+
+.main > * {
+    margin-bottom: 50px;
+}
+
+.custom-nav-style{
+    background-color: white;
+    box-shadow: 0px 3px 6px #00000029
+}
+.custom-nav{
+    max-width: 1267px;
+}
+
+
 
 .footer{
     margin-top: auto;

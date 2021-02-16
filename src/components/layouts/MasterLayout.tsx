@@ -1,6 +1,6 @@
-import HeaderSVG from 'assets/images/header.svg';
 import FooterSvg from 'assets/images/footer.svg';
 import React, { ReactNode, useState, useEffect } from 'react';
+import NavBar from 'components/commons/NavBar';
 
 interface MasterProps {
   children: ReactNode;
@@ -18,7 +18,7 @@ const MasterLayout: React.FC<MasterProps> = ({ children }) => {
 
   return (
     <>
-      <img src={HeaderSVG} alt="wave-header" className="header" />
+      <NavBar />
       {isLoading ? (
         <p>Content loading...</p>
       ) : (
